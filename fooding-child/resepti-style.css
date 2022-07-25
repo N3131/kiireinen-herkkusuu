@@ -1,0 +1,24 @@
+
+.rwmb-meta-box {
+    color: brown;
+}
+
+.ainekset-label {
+    font-weight: 600;
+}
+
+.ainesosa  {
+    display: inline-block;
+}
+
+.resepti-input-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+
+.resepti-input-wrap > * {
+    flex-basis: 18rem;
+    flex-grow: 1;
+    margin: 0.5rem 0.25rem;
+}

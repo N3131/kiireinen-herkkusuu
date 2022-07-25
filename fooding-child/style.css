@@ -1,0 +1,89 @@
+/*
+Theme Name: Fooding Child 
+Theme URL: https://localhost/wordpress3/
+Description: Fooding 
+Theme Author: Jenni
+Author URL: https://localhost/wordpress3/
+Template: fooding
+Version: 1.0.0 
+Text Domain: Fooding-child 
+*/
+body {
+    background-color: #FAF2F3;
+}
+
+nav {
+    background-color: rgba(246, 243, 233,0.9);
+}
+
+.nav-links{
+    padding: 0.8rem;
+    font-size: 18px;
+}
+
+.navigation a {
+    color: rgb(24, 24, 24);
+}
+
+.resepti-thumb {
+    text-align: center;
+}
+
+.resepti-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+
+#reseptihakuform {
+    background-color: coral;
+}
+
+.resepti-haku {
+    background-color: #ffffff;
+    padding: 2rem;
+}
+
+.resepti-haku-linkki {
+    margin-left: 5rem;
+    font-size: 1.3rem;
+}
+
+.resepti-ainekset {
+    border-top: 1px solid black;
+    padding-bottom: 2rem;
+}
+
+.resepti-ainekset-wrap div {
+    display: inline-block;
+    margin-right: 3rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .resepti-ainekset-wrap {
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+    }
+} 
+
+.resepti-ainekset h4 {
+    margin: 2rem 0 1rem;
+}
+
+.resepti-ainekset p {
+    margin: 0;
+}
+
+.resepti-vaiheet {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+}
+.resepti-vaiheet h4 {
+    margin: 2rem 0 1rem;
+}
+.resepti-vaiheet p {
+    margin: 0.3rem;
+}
